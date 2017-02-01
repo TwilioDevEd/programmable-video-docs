@@ -11,7 +11,6 @@ Implement a UI layout with menu items to let the user Start/Stop Screen Share.
 
 **Request Screen Capture permission** 
 Get an instance of the [MediaProjectionManager](https://developer.android.com/reference/android/media/projection/MediaProjectionManager.html) service. Call the `createScreenCaptureIntent` method in a new activity. This initiates a prompt dialog for the user to confirm screen projection.
-
 <Code snippet link>
 
 
