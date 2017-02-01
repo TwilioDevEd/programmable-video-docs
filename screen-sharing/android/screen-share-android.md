@@ -16,5 +16,4 @@ Get an instance of the [MediaProjectionManager](https://developer.android.com/re
 
 **Start Screen share when permission received** 
 Initialize the `ScreenCapturer` class, after permission is received from the user. Add the local media video track to the [LocalVideoTrack](https://media.twiliocdn.com/sdk/android/video/releases/1.0.0-beta6/docs/com/twilio/video/LocalVideoTrack.html) object and pass the `ScreenCapturer` object to pass the captured local video frames. Set the `VideoView` object to `Visible` . Call the `addRender` method on the `LocalVideoTrack` object. Pass the `VideoView` object to begin receiving the screen capture video. 
-
 <Code snippet link>
